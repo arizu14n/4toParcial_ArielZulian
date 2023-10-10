@@ -181,3 +181,34 @@ footer{
     height: 24vh;
     text-align: justify;
 }
+
+.carousel-item{
+    margin-left: 12.5%;
+}
+
+
+.col-img {
+max-width: 400px;
+border-radius: 10%;
+margin-bottom: 20px;
+height: 400px;
+
+}
+.modal-body{
+    text-shadow: 2px 2px 5px black;
+    text-align: justify;
+}
+
+
+.modal-header{
+    background-color: #183D3D;
+}
+.modal-footer{
+    background-color: rgb(194, 231, 218) !important;
+    
+    color: black;
+   
+}
+.col-img:hover{
+    box-shadow: 5px -5px 10px #183D3D;
+}
