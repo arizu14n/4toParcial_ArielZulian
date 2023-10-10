@@ -1,0 +1,183 @@
+#Logo-Navbar {
+margin-left: 2%;
+font-size: 40px;
+font-weight: bold;
+color: blueviolet;
+}
+
+
+#Logo-Navbar:hover {
+    text-shadow: 3px 2px 7px white;
+    transform: scale(1.1);
+  
+}
+.nav-item:hover {
+    transform: scale(1.05);
+   
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(24, 61, 61);
+    text-shadow: 3px 2px black;
+   
+}
+
+.h6{
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    text-align: center;
+    color: #080508 !important;
+}
+
+.form-label {
+    color: black;
+    margin-top: 0;
+}
+.form-control{
+    background-color: rgb(195, 247, 200);
+    color: black;
+}
+
+.body {
+
+    background-color: rgb(147, 177, 166)
+}
+#exampleFormControlInput1{
+    color: black;
+}
+
+#exampleFormControlTextarea1{
+    color: black;
+}
+
+body {
+
+    background-color: rgb(147, 177, 166)!important
+}
+.card-header{
+    background-color: rgb(147, 177, 166)!important;
+    font-size: x-large; 
+    text-shadow: 1px 1px 2px black;
+
+}
+
+
+    
+.card-title{
+    font-size: x-large; 
+    text-shadow: 1px 1px 2px black;
+    
+}
+.card-text{
+    font-size: x-large; 
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+footer{
+    text-align: right;
+    font-size: 120%;
+    margin-right: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.Logo-facebook {
+    height: 5vh;
+    margin-right: 3%;
+    border-radius: 10%;
+  
+}
+.Logo-Instagram {
+        height: 5vh;
+        margin-right: 3%;
+        border-radius: 10%;
+  
+}
+.Logo-twitter {
+    height: 5vh;
+    border-radius: 10%;
+  
+
+}
+
+.Logo-twitter:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.Logo-facebook:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+   
+
+}
+
+.Logo-Instagram:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+
+}
+.card-img-top{
+    border-radius: 10%;
+}
+
+.tarjeta:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.container {
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+}
+
+.tarj-text{
+    color: aliceblue;
+    font-size: x-large; 
+    text-shadow: 1px 1px 2px black;
+    text-decoration-color: aliceblue;
+    
+}
+#img-ofrAC{
+    height: 40vh;
+}
+#img2{
+    height: 54%;
+    width: 135%;
+}
+
+.img-fluid{
+    border-radius: 10%;
+}
+
+.img-cont {
+    position: relative;
+    display: inline-block;
+}
+
+.img-fluid {
+    transition: transform 0.5s;
+}
+
+.card1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: #080508;
+    border-radius: 10%;
+    font-size: larger;
+    height: 24vh;
+    text-align: justify;
+}
