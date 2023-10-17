@@ -80,7 +80,20 @@
     </div>
     <form action="https://formspree.io/f/mdorpbln"
           method="POST">
-    <div class="container-fluid body" rows="15" my-0>
+    <div class="container-fluid body" rows="15">
+      
+      <div class="mb-3">
+        <label for="exampleFormControlInput01" class="form-label">Nombre y Apellido</label>
+        <input
+          type="Text"
+          name="Nombre"
+          class="form-control"
+          id="exampleFormControlInput01"
+          placeholder="Nombre Apellido"
+          required
+        />
+      </div>
+      
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email</label>
         <input
@@ -89,8 +102,60 @@
           class="form-control"
           id="exampleFormControlInput1"
           placeholder="name@example.com"
+          required
         />
       </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput02" class="form-label d-block" >¿A quién dirige su consulta?</label>
+        <label class="d-block" for="DW">Desarrollo de Software
+        <input
+          type="radio"
+          name="Profesional"
+          value="Desarrollo"
+          id="DW"
+          
+        />
+      </label>
+          
+      <label class="d-block" for="AC">Asesoramiento Administrativo-Contable
+        <input
+          type="radio"
+          name="Profesional"
+          value="AsesoramientoAC"
+          id="AC"
+        />
+      </label>
+
+      <label class="d-block" for="TB1">Psicología
+        <input
+          type="radio"
+          name="Profesional"
+          value="Psicologia"
+          id="TB1"
+        />
+      </label>
+
+      <label class="d-block" for="TB2">Psicopedagogía
+        <input
+          type="radio"
+          name="Profesional"
+          value="Psicopedagogia"
+          id="TB2"
+        />
+      </label>
+
+      <label class="d-block" for="TB3">Producción Audiovisual
+        <input
+          type="radio"
+          name="Profesional"
+          value="ProdAudiovisual"
+          id="TB3"
+        />
+      </label>
+
+      </div>
+
       <div class="mb-3" >
         
         <label for="exampleFormControlTextarea1" class="form-label"
@@ -102,6 +167,7 @@
           id="exampleFormControlTextarea1"
           rows="5"
           placeholder="Utilice este espacio para escribir su consulta"
+          required
         ></textarea>
       </div>
       <div class="col-auto">

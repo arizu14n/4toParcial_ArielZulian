@@ -52,6 +52,9 @@ h1 {
 #exampleFormControlInput1{
     color: black;
 }
+#exampleFormControlInput01{
+    color: black;
+}
 
 #exampleFormControlTextarea1{
     color: black;
@@ -188,6 +191,7 @@ i:hover{
     text-shadow: 2px 2px 10px #fff;
     text-align: justify;
 }
+
 
 .carousel-item{
    align-items: center;
