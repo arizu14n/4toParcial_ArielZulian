@@ -31,45 +31,49 @@ let footerFecha = document.getElementById("fechaTexto");
 footerFecha.textContent = obtenerFechaTexto();
 
 
-// para lograr el giro de la tarjeta 1
+// para lograr el efecto de la tarjeta 1
 
 const image = document.getElementById('img1');
 const card = document.getElementById('card1');
 
 img1.addEventListener('mouseenter', () => {
-img1.style.transform = 'rotate(360deg)';
+img1.style.display = 'none';
 card1.style.display = 'block';
 });
 
 img1.addEventListener('mouseleave', () => {
-img1.style.transform = 'rotate(0deg)';
+img1.style.display = 'block';
 card1.style.display = 'none';
 });
 
-// para lograr el giro de la tarjeta 2
+// para lograr el efecto de la tarjeta 2
 
 const image01 = document.getElementById('img2');
 const card01 = document.getElementById('card2');
 
 img2.addEventListener('mouseenter', () => {
-img2.style.transform = 'rotate(360deg)';
+img2.style.display = 'none';
 card2.style.display = 'block';
 });
 
 img2.addEventListener('mouseleave', () => {
-img2.style.transform = 'rotate(0deg)';
+img2.style.display = 'block';
 card2.style.display = 'none';
 });
+
+
+// para lograr el efecto de la tarjeta 3
+
 
 const image02 = document.getElementById('img3');
 const card02 = document.getElementById('card3');
 
 img3.addEventListener('mouseenter', () => {
-img3.style.transform = 'rotate(360deg)';
+img3.style.display = 'none';
 card3.style.display = 'block';
 });
 
 img3.addEventListener('mouseleave', () => {
-img3.style.transform = 'rotate(0deg)';
+img3.style.display = 'block';
 card3.style.display = 'none';
 });
