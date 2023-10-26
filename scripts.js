@@ -31,6 +31,8 @@ let footerFecha = document.getElementById("fechaTexto");
 footerFecha.textContent = obtenerFechaTexto();
 
 
+
+
 // para lograr el efecto de la tarjeta 1
 
 const image = document.getElementById('img1');
